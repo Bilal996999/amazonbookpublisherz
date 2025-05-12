@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketairre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel='shortcut icon' href='./assets/img/fav-icon.png' type='image/x-icon'>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <style>
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+
+        [dir='rtl'] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+
+        html.lenis {
+            height: auto
+        }
+
+        .lenis.lenis-smooth {
+            scroll-behavior: auto
+        }
+
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain
+        }
+
+        .lenis.lenis-stopped {
+            overflow: hidden
+        }
+
+        .lenis.lenis-scrolling iframe {
+            pointer-events: none
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bi-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo-wrapper">
+                    <img src="./assets/img/logo.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="btn-wrapper">
+                    <a href="tel:8775133233" class="bi-btn">
+                        <img src="./assets/img/phone-number.png" class="img-fluid" loading="lazy" />
+                    </a>
+                    <a class="bi-btn" href="#">
+                        Get Started
+                    </a>
+                    <a class="bi-btn tranparent" href="#">
+                        Live Chat
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bi-hero">
+        <div class="container h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-sm-6 col-12">
+                    <div class="hero-content-wrapper">
+                        <h1>
+                            From Draft to
+                            <span class="theme-color">Bookshelf</span>
+                            We Bring Words to
+                            <span class="theme-color">Life</span>
+                        </h1>
+                        <p>
+                            Amzn Book Publisher helps turn your ideas into books with a complete suite of
+                            services. Whether you're a first-time author or a well-known celebrity in the
+                            literary world, we cater to everyone.
+                        </p>
+                        <div class="btn-wrapper">
+                            <a href="#" class="bi-btn white">
+                                (877) 513-3233
+                            </a>
+                            <a href="#" class="bi-btn">
+                                Live Chat
+                            </a>
+                        </div>
+                        <img src="./assets/img/hero-trust-reviews.png" class="img-fluid" loading="lazy" />
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="hero-form-wrapper">
+                        <h2>
+                            Start Your <span class="theme-color">Publishing Journey</span>
+                        </h2>
+                        <form class="bi-form">
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label>
+                                        Name
+                                        <input type="text" placeholder="Name" name="Name" />
+                                    </label>
+                                </div>
+                                <div class="col">
+                                    <label>
+                                        Email
+                                        <input type="email" placeholder="Type your email address" name="Email" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label>
+                                        Phone
+                                        <input type="tel" placeholder="Type your phone number" name="Phone" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label class="mb-2">What services are you looking for?</label>
+                                    <div class="d-flex flex-wrap">
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" value="Self Publishing" name="selfPublishing"
+                                                id="selfPublishing" />
+                                            <label for="selfPublishing">Self Publishing</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" value="Interior" name="Interior" id="Interior" />
+                                            <label for="Interior">Interior</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" value="Design Printing" name="designPrinting"
+                                                id="designPrinting" />
+                                            <label for="designPrinting">Design Printing</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" value="Editing Cover" name="editingCover"
+                                                id="editingCover" />
+                                            <label for="editingCover">Editing Cover</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" value="Formatting" name="Formatting"
+                                                id="Formatting" />
+                                            <label for="Formatting">Formatting</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" value="Illustration" name="Illustration"
+                                                id="Illustration" />
+                                            <label for="Illustration">Illustration</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label class="w-100">
+                                        Manuscript
+                                    </label>
+                                    <select>
+                                        <option>Do you have a manuscript ready?</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label class="w-100">
+                                        Have you published before?
+                                    </label>
+                                    <select>
+                                        <option>Have you published before?</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button class="w-100 bi-btn">
+                                Submit Your Request
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-logos">
+        <div class="logos-sliders">
+            <div class="logo-item">
+                <img src="./assets/img/logo-1.webp" class="img-fluid" loading="lazy" />
+            </div>
+            <div class="logo-item">
+                <img src="./assets/img/logo-2.webp" class="img-fluid" loading="lazy" />
+            </div>
+            <div class="logo-item">
+                <img src="./assets/img/logo-3.webp" class="img-fluid" loading="lazy" />
+            </div>
+            <div class="logo-item">
+                <img src="./assets/img/logo-4.webp" class="img-fluid" loading="lazy" />
+            </div>
+            <div class="logo-item">
+                <img src="./assets/img/logo-5.webp" class="img-fluid" loading="lazy" />
+            </div>
+            <div class="logo-item">
+                <img src="./assets/img/logo-6.webp" class="img-fluid" loading="lazy" />
+            </div>
+            <div class="logo-item">
+                <img src="./assets/img/logo-7.webp" class="img-fluid" loading="lazy" />
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-testimonials">
+        <div class="container">
+            <div class="top-content text-center text-white">
+                <h2 class="theme-heading">
+                    Stories Of Satisfaction 
+                </h2>
+                <p class="theme-para">
+                    From editing and design to distribution and marketing, we'll leverage our industry expertise<br>
+                    to ensure you have a streamlined and seamless publication process..
+                </p>
+            </div>
+            <div id="slider"> 
+                <div class="dp-wrap"> 
+                  <div id="dp-slider">
+                    <div class="dp_item" data-class="1" data-position="1">
+                      <div class="dp-content">
+                        <div class="dp-img">
+                            <img class="img-fluid" src="./assets/img/testimonial-1.png" alt="investing" loading="lazy">
+                        </div>
+                        <div class="testimonial-content">
+                            <p> 
+                                Leverage agile frameworks to provide
+                                a robust syns is for strategy foster go
+                                Leverage agile frameworks to provide
+                                a robust synopsis for go for strategy 
+                            </p>
+                            <div class="d-flex align-items-start justify-content-start mt-4 gap-3">
+                                <img src="./assets/img/author-1.png" class="img-fluid" loading="lazy" />
+                                <div class="author-content">
+                                    <h3>John Doe</h3>
+                                    <p>President of Safes</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="dp_item" data-class="2" data-position="2">
+                        <div class="dp-content">
+                            <div class="dp-img">
+                                <img class="img-fluid" src="./assets/img/testominial-2.png" alt="investing" loading="lazy">
+                            </div>
+                            <div class="testimonial-content">
+                                <p> 
+                                    Leverage agile frameworks to provide
+                                    a robust syns is for strategy foster go
+                                    Leverage agile frameworks to provide
+                                    a robust synopsis for go for strategy 
+                                </p>
+                                <div class="d-flex align-items-start justify-content-start mt-4 gap-3">
+                                    <img src="./assets/img/author-1.png" class="img-fluid" loading="lazy" />
+                                    <div class="author-content">
+                                        <h3>John Doe</h3>
+                                        <p>President of Safes</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+              
+                    <div class="dp_item" data-class="3" data-position="3">
+                        <div class="dp-content">
+                            <div class="dp-img">
+                                <img class="img-fluid" src="./assets/img/testimonial-3.png" alt="investing" loading="lazy">
+                            </div>
+                            <div class="testimonial-content">
+                                <p> 
+                                    Leverage agile frameworks to provide
+                                    a robust syns is for strategy foster go
+                                    Leverage agile frameworks to provide
+                                    a robust synopsis for go for strategy 
+                                </p>
+                                <div class="d-flex align-items-start justify-content-start mt-4 gap-3">
+                                    <img src="./assets/img/author-1.png" class="img-fluid" loading="lazy" />
+                                    <div class="author-content">
+                                        <h3>John Doe</h3>
+                                        <p>President of Safes</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+
+                  </div>
+                  
+                  <span id="dp-next">
+                    Next
+                  </span>
+              
+                  <span id="dp-prev">
+                    Prev
+                  </span>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="bi-packages">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading">
+                    Affordable Excellence Quality Packages
+                </h2>
+                <p class="theme-para">
+                    Premium features and services without compromising on quality. Discover the perfect solution to meet
+                    your needs today.
+                </p>
+            </div>
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="package-wrapper">
+                        <h3>
+                            Standard Book Publishing
+                        </h3>
+                        <span>
+                            $299
+                        </span>
+                        <hr />
+                        <p>
+                            EDITING, FORMATTING, SPELL CHECK &
+                            TYPESETTING ACCORDING TO INTERNATIONAL
+                            BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon
+                            </li>
+                            <li>
+                                Ebook, paperback and hardcover
+                            </li>
+                            <li>
+                                Proofreading
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout
+                                according to publishing standards
+                            </li>
+                            <li>
+                                Formatting
+                            </li>
+                            <li>
+                                Authors and books profile
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn black">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="package-wrapper">
+                        <h3>
+                            Standard Book Publishing
+                        </h3>
+                        <span>
+                            $299
+                        </span>
+                        <hr />
+                        <p>
+                            EDITING, FORMATTING, SPELL CHECK &
+                            TYPESETTING ACCORDING TO INTERNATIONAL
+                            BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon
+                            </li>
+                            <li>
+                                Ebook, paperback and hardcover
+                            </li>
+                            <li>
+                                Proofreading
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout
+                                according to publishing standards
+                            </li>
+                            <li>
+                                Formatting
+                            </li>
+                            <li>
+                                Authors and books profile
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn black">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="package-wrapper">
+                        <h3>
+                            Standard Book Publishing
+                        </h3>
+                        <span>
+                            $299
+                        </span>
+                        <hr />
+                        <p>
+                            EDITING, FORMATTING, SPELL CHECK &
+                            TYPESETTING ACCORDING TO INTERNATIONAL
+                            BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon
+                            </li>
+                            <li>
+                                Ebook, paperback and hardcover
+                            </li>
+                            <li>
+                                Proofreading
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout
+                                according to publishing standards
+                            </li>
+                            <li>
+                                Formatting
+                            </li>
+                            <li>
+                                Authors and books profile
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn black">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
+                    <div class="package-wrapper">
+                        <h3>
+                            Standard Book Publishing
+                        </h3>
+                        <span>
+                            $299
+                        </span>
+                        <hr />
+                        <p>
+                            EDITING, FORMATTING, SPELL CHECK &
+                            TYPESETTING ACCORDING TO INTERNATIONAL
+                            BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon
+                            </li>
+                            <li>
+                                Ebook, paperback and hardcover
+                            </li>
+                            <li>
+                                Proofreading
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout
+                                according to publishing standards
+                            </li>
+                            <li>
+                                Formatting
+                            </li>
+                            <li>
+                                Authors and books profile
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn black">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
+                    <div class="package-wrapper">
+                        <h3>
+                            Standard Book Publishing
+                        </h3>
+                        <span>
+                            $299
+                        </span>
+                        <hr />
+                        <p>
+                            EDITING, FORMATTING, SPELL CHECK &
+                            TYPESETTING ACCORDING TO INTERNATIONAL
+                            BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon
+                            </li>
+                            <li>
+                                Ebook, paperback and hardcover
+                            </li>
+                            <li>
+                                Proofreading
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout
+                                according to publishing standards
+                            </li>
+                            <li>
+                                Formatting
+                            </li>
+                            <li>
+                                Authors and books profile
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn black">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
+                    <div class="package-wrapper">
+                        <h3>
+                            Standard Book Publishing
+                        </h3>
+                        <span>
+                            $299
+                        </span>
+                        <hr />
+                        <p>
+                            EDITING, FORMATTING, SPELL CHECK &
+                            TYPESETTING ACCORDING TO INTERNATIONAL
+                            BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon
+                            </li>
+                            <li>
+                                Ebook, paperback and hardcover
+                            </li>
+                            <li>
+                                Proofreading
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout
+                                according to publishing standards
+                            </li>
+                            <li>
+                                Formatting
+                            </li>
+                            <li>
+                                Authors and books profile
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn black">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-journey">
+        <div class="container">
+            <h2 class="theme-heading text-center">
+                Services to Support
+                <span class="theme-color">Your Journey</span>
+            </h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="journey-wrapper">
+                        <img src="./assets/img/journey-1.png" class="img-fluid" loading="lazy" />
+                        <h4>
+                            Editing Cover
+                        </h4>
+                        <p>
+                            Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein
+                            Layout ansieht. Der Punkt,
+                        </p>
+                        <span>
+                            01
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="journey-wrapper">
+                        <img src="./assets/img/journey-2.png" class="img-fluid" loading="lazy" />
+                        <h4>
+                            Design Printing
+                        </h4>
+                        <p>
+                            Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein
+                            Layout ansieht. Der Punkt,
+                        </p>
+                        <span>
+                            02
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="journey-wrapper">
+                        <img src="./assets/img/journey-3.png" class="img-fluid" loading="lazy" />
+                        <h4>
+                            Interior
+                        </h4>
+                        <p>
+                            Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein
+                            Layout ansieht. Der Punkt,
+                        </p>
+                        <span>
+                            03
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="journey-wrapper">
+                        <img src="./assets/img/journey-4.png" class="img-fluid" loading="lazy" />
+                        <h4>
+                            Formatting
+                        </h4>
+                        <p>
+                            Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein
+                            Layout ansieht. Der Punkt,
+                        </p>
+                        <span>
+                            04
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="journey-wrapper">
+                        <img src="./assets/img/journey-5.png" class="img-fluid" loading="lazy" />
+                        <h4>
+                            Illustration
+                        </h4>
+                        <p>
+                            Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein
+                            Layout ansieht. Der Punkt,
+                        </p>
+                        <span>
+                            05
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="journey-wrapper">
+                        <img src="./assets/img/journey-6.png" class="img-fluid" loading="lazy" />
+                        <h4>
+                            Self Publishing
+                        </h4>
+                        <p>
+                            Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein
+                            Layout ansieht. Der Punkt,
+                        </p>
+                        <span>
+                            06
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-cta">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="cta-content-wrapper text-white">
+                        <h2 class="theme-heading">
+                            Empowering Authors to Publish with Purpose
+                        </h2>
+                        <p class="theme-para">
+                            Dive into the realm of groundbreaking opportunities with our specialize Harper Book
+                            Publishers are here to assist you in reaching your imaginative potential and telling
+                            compelling tales to a worldwide readership.
+                        </p>
+                        <div class="btn-wrapper">
+                            <a href="tel:8775133233" class="bi-btn">
+                                <img src="./assets/img/phone-number.png" class="img-fluid" loading="lazy" />
+                            </a>
+                            <a class="bi-btn" href="#">
+                                Get Started
+                            </a>
+                            <a class="bi-btn tranparent" href="#">
+                                Live Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-experience">
+        <div class="container">
+            <div class="row justify-content-center align-items-start">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="experience-img">
+                        <h2 class="theme-heading">
+                            Experience the Difference That
+                            <span class="theme-color">Comes with Working</span>
+                        </h2>
+                        <img src="./assets/img/experience-img.png" class="img-fluid" loading="lazy" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="experience-content">
+                        <div class="journey-wrapper">
+                            <img src="./assets/img/experience-1.png" class="img-fluid" loading="lazy" />
+                            <h4>
+                                Expert Guidance
+                            </h4>
+                            <p>
+                                Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich
+                                ein
+                                Layout ansieht. Der Punkt,
+                            </p>
+                        </div>
+                        <div class="journey-wrapper">
+                            <img src="./assets/img/experience-2.png" class="img-fluid" loading="lazy" />
+                            <h4>
+                                Stunning Designs
+                            </h4>
+                            <p>
+                                Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich
+                                ein
+                                Layout ansieht. Der Punkt,
+                            </p>
+                        </div>
+                        <div class="journey-wrapper">
+                            <img src="./assets/img/experience-3.png" class="img-fluid" loading="lazy" />
+                            <h4>
+                                Global Reach
+                            </h4>
+                            <p>
+                                Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich
+                                ein
+                                Layout ansieht. Der Punkt,
+                            </p>
+                        </div>
+                        <div class="journey-wrapper">
+                            <img src="./assets/img/experience-4.png" class="img-fluid" loading="lazy" />
+                            <h4>
+                                Tailored Marketing
+                            </h4>
+                            <p>
+                                Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich
+                                ein
+                                Layout ansieht. Der Punkt,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-work">
+        <div class="text-center">
+            <h2 class="theme-heading">
+                Prepare to Be Amazed by
+                <span class="theme-color">Our Work</span>
+            </h2>
+            <p class="theme-para">
+                We've worked with a number of clients who hired us to write, publish, and market their books. Here’s a
+                glimpse of
+                what you can expect from our competent team.
+            </p>
+            <div class="work-slider">
+                <div class="work-item">
+                    <img src="./assets/img/work-1.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="work-item">
+                    <img src="./assets/img/work-2.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="work-item">
+                    <img src="./assets/img/work-3.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="work-item">
+                    <img src="./assets/img/work-4.png" class="img-fluid" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-contact">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="cta-content-wrapper text-white">
+                        <h2 class="theme-heading text-white">
+                            cost-effective manuscript
+                            publication deals are here for you!
+                        </h2>
+                        <p class="theme-para">
+                            We support giving authors the freedom to tell their stories to a global audience. Our
+                            all-inclusive publishing services are intended to give you the assistance and tools required to
+                            turn your manuscript into an engrossing literary piece that appeals to readers everywhere.
+                        </p>
+                        <ul>
+                            <li>Ghost Book Writing</li>
+                            <li>Book Publishing</li>
+                            <li>Article Writing</li>
+                            <li>Book Cover Design</li>
+                            <li>Book Marketing</li>
+                            <li>Script Writing</li>
+                            <li>Editing</li>
+                            <li>Ebook Writing</li>
+                            <li>Book Video Trailer</li>
+                            <li>Author Website</li>
+                            <li>Custom Book Illustration</li>
+                            <li>Book Printing</li>
+                        </ul>
+                        <div class="btn-wrapper">
+                            <a class="bi-btn white" href="tel:7542937474">
+                                (754) 293-7474
+                            </a>
+                            <a class="bi-btn" href="#">
+                                Live Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="hero-form-wrapper">
+                        <h2>
+                            Start Your <span class="theme-color">Publishing Journey</span>
+                        </h2>
+                        <form class="bi-form">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-12">
+                                    <label>
+                                        Name
+                                        <input type="text" placeholder="Name" name="Name">
+                                    </label>
+                                </div>
+                                <div class="col-12">
+                                    <label>
+                                        Email
+                                        <input type="email" placeholder="Type your email address" name="Email">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label>
+                                        Phone
+                                        <input type="tel" placeholder="Type your phone number" name="Phone">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label class="w-100">
+                                        Services
+                                    </label>
+                                    <select>
+                                        <option>Select Services</option>
+                                        <option value="SelfPublishing">Self Publishing</option>
+                                        <option value="Interior">Interior</option>
+                                        <option value="DesignPrinting">Design Printing</option>
+                                        <option value="EditingCover">Editing Cover</option>
+                                        <option value="Formatting">Formatting</option>
+                                        <option value="Illustration">Illustration</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label class="w-100">
+                                        Message
+                                    </label>
+                                    <textarea class="col-12"
+                                        rows="4"
+                                        placeholder="Type Message Here..."
+                                    >
+                                    </textarea>
+                                </div>
+                            </div>
+                            <button class="w-100 bi-btn">
+                                Submit Your Request
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bi-footer">
+        <div class="container">
+            <div class="row justify-content-center align-items-start flex-wrap">
+                <div class="col-lg-4 col-12">
+                    <div class="footer-content-wrapper">
+                        <img src="./assets/img/logo.png" class="img-fluid" loading="lazy" />
+                        <p class="theme-para text-white mt-4">
+                            Amzn Book Publisher specializes in helping
+                            clients write, publish, and market their books.
+                            With our team of experts by your side, you'll
+                            be one step closer to achieving greatness in
+                            the literary world.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="footer-content-wrapper">
+                        <h3 class="footer-heading text-white">
+                            SERVICES
+                        </h3>
+                        <ul class="text-white">
+                           <li>Non Fiction Writing</li>
+                           <li>Song Writing</li>
+                           <li>Poems Writing</li>
+                           <li>E-book Writing</li>
+                           <li>Ghost Writing</li>
+                           <li>Book Cover Design</li>
+                           <li>Author website Design</li>
+                           <li>Children's Book Priniting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="footer-content-wrapper">
+                        <h3 class="footer-heading text-white">
+                            PAYMENT METHODS
+                        </h3>
+                        <img src="./assets/img/cards.png" class="img-fluid" loading="lazy" />
+                        <p class="theme-para text-white mt-3">
+                            1372 Peachtree Street N.E.<br>
+                            Atlanta, Georgia 30309
+                        </p>
+                        <a href="tel:8775133233" class="theme-para text-white mt-4">
+                            (877) 513-3233
+                        </a><br>
+                        <a href="mailto:info@amznbookpublisher.com" class="theme-para text-white mt-4">
+                            info@amznbookpublisher.com
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 footer-bottom text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="theme-para">
+                            All Rights Reserved 2025 - All Rights Reserved
+                        </p>
+                        <ul>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms & Condition</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+
+    <div class="modal fade normal" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="contact-form" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="700">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <form class="bi-form" id="bi-Form" method="POST">
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage"
+                                style="display:none; font-size: 18px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $199-->
+
+    <div class="modal fade" id="pack-199-Modal" tabindex="-1" aria-labelledby="pack-199-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Basic Boost
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$99</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-199" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Basic Boost" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-199"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-199"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item" data-tilt data-tilt-max="5">
+
+                        <div class="package-detail">
+
+                            <!-- <p class="theme-para">
+
+                        <span class="gradient-heading">Package 1</span>
+
+                    </p> -->
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Basic Boost
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$99</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content">
+
+                                Perfect for small businesses or startups
+                                looking to establish their social media
+                                presence.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                <p><b>No. of Posts:</b> 10</p>
+
+                                <p><b>Platforms Included:</b> FB,
+                                    LinkedIn</p>
+
+                                <p><b>Per Additional Platform:</b>
+                                    $20/month</p>
+
+                                <p><b>No. of Post Revisions:</b> 3</p>
+
+                                <p><b>Custom Posts:</b> (Holidays, Seasonal,
+                                    etc)</p>
+
+                                <p><b>Post Scheduling</b></p>
+
+                                <p><b>Monthly Reporting:</b> Standard</p>
+
+                                <p><b>Customer Support</b></p>
+
+                                <h5 class="theme-para mb-1 bonus"><b>One
+                                        Time Bonuses:</b></h5>
+
+                                <p class="line-height">Social Profile DP &
+                                    Cover Design <b>($100 Value)</b></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $299-->
+
+    <div class="modal fade" id="pack-299-Modal" tabindex="-1" aria-labelledby="pack-299-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Growth Accelerator
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$199</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-299" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Growth Accelerator" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-299"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-299"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item" data-tilt data-tilt-max="5">
+
+                        <div class="package-detail">
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Growth Accelerator
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$199</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content">
+
+                                Ideal for businesses aiming to build and
+                                scale their social media following.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <div class="package-include">
+
+                                    <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                    <p><b>No. of Posts:</b> 20</p>
+
+                                    <p><b>Platforms Included:</b> FB,
+                                        Instagram, LinkedIn</p>
+
+                                    <p><b>Per Additional Platform:</b>
+                                        $20/month</p>
+
+                                    <p><b>No. of Post Revisions:</b> 5 </p>
+
+                                    <p><b>Custom Posts:</b> (Holidays,
+                                        Seasonal, etc)</p>
+
+                                    <p><b>Post Scheduling</b></p>
+
+                                    <p><b>Monthly Reporting:</b>
+                                        Standard</p>
+
+                                    <p><b>Customer Support</b></p>
+
+                                    <h5 class="theme-para mb-1 bonus"><b>One
+                                            Time Bonuses:</b></h5>
+
+                                    <p class="line-height">Social Profile DP
+                                        & Cover Design <b>($100
+                                            Value)</b></p>
+
+                                    <p class="line-height">Promotional
+                                        Brochure <b>($200 Value)</b></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $399-->
+
+    <div class="modal fade" id="pack-399-Modal" tabindex="-1" aria-labelledby="pack-399-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Premium Influence
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$299</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-399" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Premium Influence" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-399"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-399"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item" data-tilt data-tilt-max="5">
+
+                        <div class="package-detail">
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Premium Influence
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$299</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content no-top-padding">
+
+                                Tailored for established businesses seeking
+                                a comprehensive social media strategy with
+                                advanced features.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <div class="package-include">
+
+                                    <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                    <p><b>No. of Posts:</b> 30 </p>
+
+                                    <p><b>Platforms Included:</b> FB,
+                                        Instagram, LinkedIn, X (Twitter)
+                                    </p>
+
+                                    <p><b>Per Additional Platform:</b>
+                                        $20/month</p>
+
+                                    <p><b>No. of Post Revisions:</b> 10</p>
+
+                                    <p><b>Custom Posts:</b> (Holidays,
+                                        Seasonal, etc)</p>
+
+                                    <p><b>Post Scheduling</b></p>
+
+                                    <p><b>Monthly Reporting:</b> Advance
+                                    </p>
+
+                                    <p><b>Customer Support</b></p>
+
+                                    <h5 class="theme-para mb-1 bonus"><b>One
+                                            Time Bonuses:</b></h5>
+
+                                    <p class="line-height">Social Profile DP
+                                        & Cover Design <b>($100
+                                            Value)</b></p>
+
+                                    <p class="line-height">Promotional
+                                        Brochure <b>($200 Value)</b></p>
+
+                                    <p class="line-height">1x
+                                        Conversion-Focused Blog <b>(1000
+                                            Words)</b> <b>($500
+                                            Value)</b></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $499-->
+
+    <div class="modal fade" id="pack-499-Modal" tabindex="-1" aria-labelledby="pack-499-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Ultimate Brand Dominance
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$499</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-499" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Ultimate Brand Dominance" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-499"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-499"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item">
+
+                        <div class="package-detail">
+
+                            <p class="theme-para">
+
+                                <span class="gradient-heading">Package
+                                    4</span>
+
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Ultimate Brand Dominance
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$499</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content no-top-padding">
+
+                                For brands that need a 360-degree social
+                                media solution with maximum exposure and
+                                engagement.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                <p>30+ posts per week, full strategy design,
+                                    paid ads management, influencer
+                                    partnerships, comprehensive analytics,
+                                    and 24/7 support.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+
+    <script>
+        (function () {
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
+
+        function removeDataScrollIfNecessary() {
+
+            var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var thresholdWidth = 991; // Adjust this threshold as needed
+            var elementsWithDataScroll = document.querySelectorAll('[data-scroll]');
+
+            if (windowWidth < thresholdWidth) {
+                elementsWithDataScroll.forEach(function (element) {
+                    element.removeAttribute('data-scroll');
+                });
+            }
+        }
+
+
+
+        // Call the function initially to set the attribute based on the initial window width
+
+        removeDataScrollIfNecessary();
+
+
+
+        // Add an event listener to handle window resize
+
+        window.addEventListener('resize', removeDataScrollIfNecessary);
+
+    </script>
+
+    <script>
+        document.querySelector('#bi-Btn').addEventListener('click', function (event) {
+
+            document.getElementById('bi-Form').addEventListener('submit', function (event) {
+
+                event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                let formData = new FormData(this);
+
+
+
+                fetch('send_email.php', {
+
+                    method: 'POST',
+
+                    body: formData
+
+                })
+
+                    .then(response => response.text())
+
+                    .then(data => {
+
+                        if (data === 'success') {
+
+                            document.getElementById('bi-Form').reset();
+
+                            document.getElementById('bi-thankYouMessage').style.display = 'block';
+
+                            // Hide the thank you message after 3 seconds
+
+                            setTimeout(function () {
+
+                                document.getElementById('bi-thankYouMessage').style.display = 'none';
+
+                            }, 1000);
+
+                        } else {
+
+                            // alert('Something went wrong, please try again!');
+
+                            document.getElementById('bi-Form').reset();
+
+                            document.getElementById('bi-thankYouMessage').style.display = 'block';
+
+
+
+                            // Hide the thank you message after 3 seconds
+
+                            setTimeout(function () {
+
+                                document.getElementById('bi-thankYouMessage').style.display = 'none';
+                                window.location.href = 'https://marketairre.org/thankyou.html';
+
+                            }, 1000);
+
+                        }
+
+                    })
+
+                    .catch(error => {
+
+                        console.error('Error:', error);
+
+                        alert('Error sending email!');
+
+                    });
+
+            });
+
+        });
+    </script>
+
+    <!-- for popup form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#contactModal', function (event) {
+
+                console.log("Form query runing");
+
+                document.querySelector('#bi-Btn').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form').reset();
+
+                                    document.getElementById('bi-thankYouMessage').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage').style.display = 'none';
+
+                                    }, 1000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form').reset();
+
+                                    document.getElementById('bi-thankYouMessage').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+
+                                    }, 1000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $199 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-199-Modal', function (event) {
+
+                console.log("Form query runing 199");
+
+                document.querySelector('#bi-Btn-199').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-199').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-199').reset();
+
+                                    document.getElementById('bi-thankYouMessage-199').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-199').style.display = 'none';
+
+                                    }, 1000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-199').reset();
+
+                                    document.getElementById('bi-thankYouMessage-199').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-199').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 1000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $299 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-299-Modal', function (event) {
+
+                console.log("Form query runing 299");
+
+                document.querySelector('#bi-Btn-299').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-299').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-299').reset();
+
+                                    document.getElementById('bi-thankYouMessage-299').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-299').style.display = 'none';
+
+                                    }, 1000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-299').reset();
+
+                                    document.getElementById('bi-thankYouMessage-299').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-299').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 1000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $399 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-399-Modal', function (event) {
+
+                console.log("Form query runing 399");
+
+                document.querySelector('#bi-Btn-399').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-399').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-399').reset();
+
+                                    document.getElementById('bi-thankYouMessage-399').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-399').style.display = 'none';
+
+                                    }, 1000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-399').reset();
+
+                                    document.getElementById('bi-thankYouMessage-399').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-399').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 1000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $499 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-499-Modal', function (event) {
+
+                console.log("Form query runing 499");
+
+                document.querySelector('#bi-Btn-499').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-499').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-499').reset();
+
+                                    document.getElementById('bi-thankYouMessage-499').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-499').style.display = 'none';
+
+                                    }, 1000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-499').reset();
+
+                                    document.getElementById('bi-thankYouMessage-499').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-499').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 1000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
