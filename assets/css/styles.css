@@ -665,3 +665,23 @@ span#dp-prev {
 .testimonial-content img {
     max-width: 60px;
 }
+.livechat{
+    animation: 2s cubic-bezier(.25,0,0,1) 0s infinite pulse;
+    box-shadow: 0 0 0 2px #fbb03b;
+    margin-left: 30px;
+}
+@keyframes pulse {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05,1.05,1.05);
+        transform: scale3d(1.05,1.05,1.05)
+    }
+
+    100% {
+        box-shadow: 0 0 0 18px #fff0
+    }
+}
