@@ -84,7 +84,7 @@ input{
     align-items: center;
 }
 .bi-hero {
-    background: url('../img/hero-bg.jpg') no-repeat center;
+    background: url('../img/hero-bg.webp') no-repeat center;
     background-size: cover;
     color: #fff;
     padding: 190px 0 130px;
