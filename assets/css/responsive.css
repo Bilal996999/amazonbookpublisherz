@@ -1,0 +1,582 @@
+@media(max-width: 1399px){
+    .hero-form-wrapper h2 {
+        font-size: 31px;
+    }
+    .bi-form :is(input, select) {
+        height: 45px;
+        font-size: 14px;
+    }
+    input[type='checkbox'] {
+        height: fit-content;
+    }
+    .bi-hero {
+        padding: 150px 0 110px;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 50px;
+    }
+    .hero-content-wrapper p {
+        font-size: 15px;
+    }
+    .bi-btn {
+        font-size: 15px;
+    }
+    .bi-form .d-flex {
+        row-gap: 5px;
+    }
+    .dp-img img {
+        height: 470px;
+    }
+    .dp-content p {
+        font-size: 20px;
+    }
+    .author-content h3 {
+        font-size: 22px;
+    }
+    .theme-heading {
+        font-size: 42px;
+    }
+    .theme-para {
+        font-size: 17px;
+    }
+    div#slider {
+        height: 535px;
+    }
+    .bi-testimonials {
+        padding: 90px 0;
+    }
+    #dp-next, #dp-prev {
+        bottom: 100px;
+    }
+    .package-wrapper:before {
+        left: -21px;
+    }
+    .package-wrapper h3 {
+        font-size: 20px;
+    }
+    .package-wrapper span {
+        font-size: 30px;
+    }
+    .package-wrapper p {
+        font-size: 14px;
+    }
+    .package-wrapper ul li {
+        font-size: 15px;
+    }
+    .package-wrapper .bi-btn.black {
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+    .bi-journey {
+        padding: 70px 0 100px;
+    }
+    .journey-wrapper span {
+        font-size: 76px;
+    }
+    .journey-wrapper img {
+        max-width: 55px !important;
+    }
+    .experience-content {
+        padding-left: 20px;
+    }
+    .journey-wrapper {
+        margin-right: 50px !important;
+    }
+    .experience-content .journey-wrapper:nth-child(even) {
+        margin-left: 40px;
+    }
+    .experience-content .journey-wrapper h4 {
+        font-size: 26px;
+    }
+    .experience-content .journey-wrapper {
+        height: 200px;
+    }
+}
+@media(max-width: 1199px){
+    .hero-form-wrapper h2 {
+        font-size: 25px;
+    }
+    .hero-form-wrapper {
+        padding: 22px 30px 22px 40px;
+    }
+    .bi-form:before {
+        width: 40px;
+        left: -60px;
+    }
+    .bi-form label {
+        font-size: 15px;
+    }
+    .bi-form :is(input, select) {
+        height: 43px;
+        font-size: 13px;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 42px;
+    }
+    .hero-content-wrapper p {
+        font-size: 14px;
+    }
+    .bi-btn {
+        padding: 12px 30px !important;
+    }
+    .bi-form {
+        gap: 16px;
+    }
+    input[type='checkbox']  {
+        height: 24px;
+    }
+    div#slider {
+        margin-left: -90px;
+        margin-right: 90px;
+    }
+    .theme-heading {
+        font-size: 37px;
+    }
+    .theme-para {
+        font-size: 16px;
+    }
+    .dp-content p {
+        font-size: 18px;
+    }
+    .author-content h3 {
+        font-size: 20px;
+    }
+    #dp-next, #dp-prev {
+        right: -45px;
+        bottom: 60px;
+    }
+    span#dp-prev {
+        right: 10px;
+    }
+    .bi-testimonials {
+        padding: 70px 0;
+    }
+    div#slider {
+        margin-top: 40px;
+        height: 500px;
+    }
+    .package-wrapper {
+        padding: 20px 30px;
+    }
+    .package-wrapper h3 {
+        font-size: 18px;
+    }
+    .package-wrapper span {
+        font-size: 26px;
+    }
+    .bi-packages .row {
+        margin-top: 40px;
+    }
+    .bi-packages {
+        padding: 90px 0;
+    }
+    .bi-journey .row {
+        margin-top: 35px;
+    }
+    .bi-cta {
+        height: 525px;
+    }
+    .journey-wrapper {
+        margin-right: 0px !important;
+        margin-bottom: 30px !important;
+    }
+    .experience-content .journey-wrapper:nth-child(even) {
+        margin-left: 25px;
+    }
+    .experience-content .journey-wrapper h4 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .experience-content .journey-wrapper {
+        height: 170px;
+    }
+    .bi-experience {
+        padding: 90px 0;
+    }
+}
+@media(max-width: 991px){
+    .bi-hero .container {
+        max-width: 100%;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 36px;
+    }
+    .hero-content-wrapper p {
+        font-size: 13px;
+    }
+    .bi-form label {
+        font-size: 14px;
+    }
+    .hero-content-wrapper {
+        padding-right: 40px;
+    }
+    .bi-btn {
+        font-size: 14px;
+    }
+    .bi-form .d-flex {
+        column-gap: 10px;
+        flex-wrap: wrap;
+    }
+    .bi-form .col {
+        flex: 1 0 100%;
+        width: 100%;
+    }
+    .bi-form label {
+        font-size: 13px;
+    }
+    .bi-form {
+        gap: 10px;
+    }
+    .hero-form-wrapper {
+        padding: 22px 20px 22px 30px;
+    }
+    .bi-form:before {
+        width: 35px;
+        left: -50px;
+        background-repeat: repeat-y;
+        top: -72px;
+    }
+    .bi-logos {
+        padding: 30px 0;
+    }
+    .dp-content p {
+        font-size: 16px;
+    }
+    .author-content h3 {
+        font-size: 18px;
+    }
+    .testimonial-content {
+        padding: 25px;
+    }
+    .dp-img img {
+        height: 385px;
+    }
+    div#slider {
+        margin-top: 40px;
+        height: 450px;
+    }
+    #dp-next, #dp-prev {
+        right: -45px;
+        bottom: 85px;
+    }
+    .dp-content p {
+        font-size: 14px;
+    }
+    .author-content h3 {
+        font-size: 17px;
+    }
+    .bi-testimonials {
+        padding: 60px 0;
+    }
+    .bi-packages {
+        padding: 60px 0 80px;
+    }
+    .experience-img img {
+        margin-top: 30px;
+        max-width: 440px;
+    }
+    .experience-content {
+        margin-top: 50px;
+    }
+    .experience-content .journey-wrapper:nth-child(even) {
+        margin-left: 0;
+    }
+    .bi-experience {
+        padding: 65px 0;
+    }
+    .bi-contact .hero-form-wrapper {
+        padding: 20px 25px;
+        margin-left: 0;
+    }
+    .bi-contact {
+        padding: 100px 0;
+    }
+    .bi-contact .theme-heading {
+        font-size: 32px;
+    }
+    .bi-contact ul li {
+        font-size: 14px;
+    }
+    .bi-contact ul {
+        padding-left: 20px !important;
+        gap: 10px;
+    }
+    .bi-form textarea {
+        width: 100%;
+        margin-top: 8px;
+        text-indent: 14px;
+        border-radius: 10px;
+        border: 1px solid rgb(0 0 0 / 30%);
+        font-size: 15px;
+        outline: none;
+    }
+}
+@media(max-width: 767px){
+    .bi-header .bi-btn {
+        padding: 10px 16px !important;
+        font-size: 12px;
+    }
+    .logo-wrapper img {
+        max-width: 132px;
+    }
+    .bi-header .d-flex {
+        gap: 10px;
+    }
+    .bi-header .container {
+        max-width: 100%;
+    }
+    .bi-form:before{
+        content: unset;
+    }
+    .bi-hero .row {
+        flex-direction: column-reverse;
+    }
+    .hero-form-wrapper {
+        padding: 35px 35px 35px 33px;
+        max-width: 510px;
+        margin-inline: auto;
+    }
+    .hero-content-wrapper {
+        margin-top: 50px;
+    }
+    .hero-content-wrapper {
+        max-width: 510px;
+        margin-inline: auto;
+        text-align: center;
+        padding-right: 0;
+    }
+    .btn-wrapper {
+        justify-content: center;
+    }
+    .theme-heading {
+        font-size: 32px;
+    }
+    .theme-para {
+        font-size: 15px;
+    }
+    .dp-img img {
+        height: 280px;
+        width: 280px;
+    }
+    .testimonial-content {
+        padding: 18px;
+    }
+    .dp-content p {
+        font-size: 13px;
+        padding-right: 0;
+    }
+    .author-content h3 {
+        font-size: 16px;
+    }
+    .author-content p {
+        font-size: 12px !important;
+    }
+    div#slider {
+        height: 320px;
+    }
+    #dp-next, #dp-prev {
+        right: -45px;
+        bottom: 30px;
+    }
+    .testimonial-content img {
+        max-width: 40px;
+    }
+    .cta-content-wrapper {
+        text-align: center;
+    }
+    .experience-img .theme-heading {
+        text-align: center;
+    }
+    .experience-img {
+        text-align: center;
+    }
+    .bi-contact .row {
+        flex-direction: column-reverse;
+    }
+    .cta-content-wrapper {
+        margin-top: 40px;
+    }
+    .bi-contact ul {
+        text-align: left;
+        justify-content: center;
+        max-width: 470px;
+        margin-inline: auto;
+        padding-left: 90px !important;
+        padding-right: 0px !important;
+    }
+    .bi-contact ul li {
+        width: 48%;
+    }
+    .bi-contact .theme-heading {
+        font-size: 28px;
+    }
+    .bi-contact {
+        padding: 70px 0;
+    }
+    .footer-bottom .theme-para {
+        font-size: 12px;
+    }
+    .footer-bottom a {
+        font-size: 12px;
+    }
+}
+@media(max-width: 575px){
+    .bi-header .btn-wrapper{
+        display: none;
+    }
+    .bi-header .d-flex {
+        justify-content: center !important;
+    }
+    .logo-wrapper img {
+        max-width: 160px;
+    }
+    .bi-hero {
+        padding: 130px 0 80px;
+    }
+    .bi-btn {
+        font-size: 13px;
+        padding: 11px 24px !important;
+    }
+    .hero-content-wrapper img {
+        margin-right: -30px;
+    }
+    .hero-form-wrapper h2 {
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 30px;
+    }
+    .hero-form-wrapper {
+        padding: 35px 25px 35px 25px;
+    }
+    .bi-form :is(input, select) {
+        margin-top: 0;
+        height: 38px;
+    }
+    input[type='checkbox'] {
+        height: 24px;
+    }
+    div#slider {
+        margin-left: -65px;
+        margin-right: 58px;
+        height: 280px;
+    }
+    .dp-img img {
+        height: 250px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .dp-content p {
+        font-size: 12px;
+    }
+    #dp-next, #dp-prev {
+        right: -30px;
+        bottom: 10px;
+    }
+    .theme-heading {
+        font-size: 25px;
+    }
+    .theme-para {
+        font-size: 14px;
+    }
+    .testimonial-content-wrapper {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    div#testimonial-slider {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start !important;
+        align-items: center;
+        gap: 20px;
+        overflow-x: auto;
+    }
+    .testimonial-item {
+        min-width: 70%;
+    }
+    .testimonial-content-wrapper img {
+        max-width: 60px;
+    }
+    .package-wrapper ul li {
+        font-size: 13px;
+    }
+    .package-wrapper p {
+        font-size: 13px;
+    }
+    .package-wrapper h3 {
+        font-size: 17px;
+    }
+    .package-wrapper .bi-btn.black {
+        font-size: 12px;
+    }
+    .testimonial-content-wrapper p {
+        font-size: 14px;
+    }
+    .journey-wrapper {
+        height: 200px;
+    }
+    .journey-wrapper h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .journey-wrapper span {
+        font-size: 70px;
+    }
+    .journey-wrapper p {
+        font-size: 13px;
+        max-width: 285px;
+    }
+    .bi-journey {
+        padding: 50px 0 70px;
+    }
+    .bi-cta {
+        height: 400px;
+    }
+    .btn-wrapper {
+        flex-wrap: wrap;
+    }
+    .experience-content .journey-wrapper p {
+        max-width: 225px;
+    }
+    .experience-content {
+        padding-left: 0;
+    }
+    .experience-content .journey-wrapper h4 {
+        font-size: 20px;
+    }
+    .experience-img img {
+        max-width: 100%;
+    }
+    .journey-wrapper p {
+        max-width: 250px;
+    }
+    .bi-work {
+        padding-bottom: 70px;
+    }
+    .bi-contact .theme-heading {
+        font-size: 24px;
+    }
+    .bi-contact ul {
+        max-width: 100%;
+        margin-inline: auto;
+        padding-left: 40px !important;
+        padding-right: 0px !important;
+    }
+    .bi-contact ul li {
+        font-size: 12px;
+    }
+    .work-item img {
+        height: 350px;
+    }
+    .footer-bottom .d-flex {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .footer-content-wrapper {
+        padding-right: 50px;
+    }
+}

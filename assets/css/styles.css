@@ -663,7 +663,10 @@ span#dp-prev {
     color: #fff;
 }
 .testimonial-content img {
-    max-width: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .livechat{
     animation: 2s cubic-bezier(.25,0,0,1) 0s infinite pulse;
@@ -684,4 +687,65 @@ span#dp-prev {
     100% {
         box-shadow: 0 0 0 18px #fff0
     }
+}
+.package-wrapper ul {
+    height: 220px;
+    overflow-y: auto;
+}
+.scrollable-box::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50px;
+    background-color: #ebe8e8;
+}
+.scrollable-box::-webkit-scrollbar-track{
+    border-radius: 50px;
+}
+.scrollable-box::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 50px;
+}
+.package-wrapper.custom-quote {
+    height: 532px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.package-wrapper.custom-quote h3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    width: fit-content;
+    margin-inline: auto;
+}
+.package-wrapper.custom-quote h4 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    justify-self: center;
+    padding-bottom: 30px;
+}
+.package-wrapper.custom-quote .bi-btn.black {
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin-inline: auto;
+}
+.package-wrapper:hover .theme-color{
+    color: #fff;
+}
+.package-wrapper.custom-quote .bi-btn.black:hover {
+    background-color: var(--themeColor);
+    color: #fff;
+}
+.package-wrapper.custom-quote h4 span {
+    font-size: 60px;
+    font-weight: 800;
 }

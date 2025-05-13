@@ -56,7 +56,7 @@ $('.logos-sliders').slick({
     {
       breakpoint: 450,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         centerPadding:"20px",
       }
