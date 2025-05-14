@@ -1,4 +1,7 @@
 @media(max-width: 1399px){
+    .hero-content-wrapper{
+        margin-top: -70px;
+    }
     .hero-form-wrapper h2 {
         font-size: 31px;
     }
